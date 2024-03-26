@@ -1,4 +1,5 @@
-const ProductManager = require("./main");
+// const ProductManager = require("./main");
+import ProductManager from "../main.js";
 
 const producto = new ProductManager();
 
@@ -6,7 +7,7 @@ const producto = new ProductManager();
 // console.log(producto.addProduct('heladera','samsung',1365000,'img2','def123',5));
 // console.log(producto.addProduct('heladera','samsung',1365000,'img2','ghi123',5));
 
-// console.log(producto.getProducts());
+console.log(producto.getProducts());
 // console.log(producto.getProductById(1));
 
 // console.log(producto.deleteProduct(3));

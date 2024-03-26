@@ -1,4 +1,5 @@
-const fs = require("fs");
+// const fs = require("fs");
+import fs from 'fs';
 
 class ProductManager {
   #products;
@@ -105,4 +106,5 @@ class ProductManager {
   }
 }
 
-module.exports = ProductManager;
+// module.exports = ProductManager;
+export default ProductManager;
